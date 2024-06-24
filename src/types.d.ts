@@ -15,3 +15,10 @@ export interface DiaryEntry {
  }
 */
 
+// un ejemplo de crear un typ a partir de otro
+// export type NonSensitiveInfoDiaryEntry = Pick<
+//   DiaryEntry,
+//   "id" | "date" | "weather" | "visibility"
+// >
+
+export type NonSensitiveInfoDiaryEntry = Omit<DiaryEntry, "comment">
