@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "date": "2017-01-01",
+        "weather": "rainy",
+        "visibility": "poor",
+        "comment": "Pretty scary flight, I'm glad I'm alive."
+    },
+    {
+        "id": 2,
+        "date": "2017-02-14",
+        "weather": "stormy",
+        "visibility": "poor",
+        "comment": "Storm made landing tricky. Quite the experience!"
+    },
+    {
+        "id": 3,
+        "date": "2017-03-30",
+        "weather": "sunny",
+        "visibility": "great",
+        "comment": "Beautiful flight with clear skies and stunning views."
+    },
+    {
+        "id": 4,
+        "date": "2017-04-22",
+        "weather": "cloudy",
+        "visibility": "poor",
+        "comment": "Thick clouds caused some delays, but we landed safely."
+    },
+    {
+        "id": 5,
+        "date": "2017-05-15",
+        "weather": "stormy",
+        "visibility": "poor",
+        "comment": "Intense turbulence during the storm, very unnerving."
+    },
+    {
+        "id": 6,
+        "date": "2017-06-05",
+        "weather": "cloudy",
+        "visibility": "good",
+        "comment": "Smooth flight despite some clouds, overall good trip."
+    },
+    {
+        "id": 7,
+        "date": "2017-07-19",
+        "weather": "sunny",
+        "visibility": "great",
+        "comment": "Clear skies made for a perfect flight experience."
+    },
+    {
+        "id": 8,
+        "date": "2017-08-25",
+        "weather": "cloudy",
+        "visibility": "ok",
+        "comment": "Clouds reduced visibility but the flight was otherwise uneventful."
+    },
+    {
+        "id": 9,
+        "date": "2017-09-10",
+        "weather": "windy",
+        "visibility": "ok",
+        "comment": "Strong winds made for a bumpy ride, but we got there."
+    },
+    {
+        "id": 10,
+        "date": "2017-10-31",
+        "weather": "stormy",
+        "visibility": "poor",
+        "comment": "Halloween storm added some fright to the flight, glad to be on the ground!"
+    }
+]
