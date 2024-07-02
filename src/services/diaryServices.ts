@@ -1,9 +1,4 @@
-import {
-  DiaryEntry,
-  NonSensitiveInfoDiaryEntry,
-  Visibility,
-  Weather,
-} from "../types"
+import { DiaryEntry, NewDiaryEntry, NonSensitiveInfoDiaryEntry } from "../types"
 import diaryData from "./diaries.json"
 
 const diaries: DiaryEntry[] = diaryData as DiaryEntry[]
@@ -37,19 +32,11 @@ export const getEntriesWithoutSensitive = (): NonSensitiveInfoDiaryEntry[] => {
 }
 
 // Función de marcador para agregar una entrada
-export const addDiary = (
-  date: string,
-  weather: Weather,
-  visibility: Visibility,
-  comment: string
-): DiaryEntry => {
-  const newDiaryEntry = {
+export const addDiary = (newDiaryEntry: NewDiaryEntry): DiaryEntry => {
+  const newDiary = {
     id: Math.max(...diaries.map((d) => d.id)) + 1,
-    date,
-    weather,
-    visibility,
-    comment,
+    ...newDiaryEntry,
   }
-  diaries.push(newDiaryEntry)
-  return newDiaryEntry
+  diaries.push(newDiary)
+  return newDiary
 }
